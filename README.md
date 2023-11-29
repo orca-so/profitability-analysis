@@ -31,3 +31,11 @@ This approach attempts to control for the market performance of the tokens in qu
 ### Summary columns
 
 An explanation of each field in the summary csv file can be found in the `src/analyze-position.ts` file.
+
+### Known limitations
+
+* This script uses coingecko historic token prices at hourly resolution. This means that for particularly volatile pairs the price used for calculating the profitability might not always match the exact price at opening/closing of a position. Furthermore, for prices older than 90 days the coingecko api only returns prices with daily resolution. This makes the calculations for positions older than 90 days less reliable.
+* This script reads back onchain transaction data 1000 signatures at a time which can be rather slow when analyzing a lot of wallets or when doing a lot of 1000 signature cycles. Since the script is currently set up to keep all transactions in memory there is a chance of running out of system memory. With 16Gb RAM the limit seems to be around 100k transactions.
+* To be able to analyze a position you will either need to have a wallet address or position address. There is a `find` subcommand that can be used to find wallets with open positions for a given pool but there is no way to find historic/closed positions. This makes it impossible to find closed positions unless you know the wallet or position address.
+* For a position to be included in the calculation the transaction that opens the position needs to be present which then assumes all other transactions related to the position are present given they happened after the open position transaction. There are edge cases (like when a position nft is transfered) where a position's transactions might not all be present which can give an inaccurate result.
+
