@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:14.0.3"],\
           ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0"],\
           ["lodash", "npm:4.17.21"],\
-          ["p-queue", "npm:6.6.2"],\
+          ["p-queue", "npm:7.4.1"],\
           ["prettier", "npm:3.1.0"],\
           ["tiny-invariant", "npm:1.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
@@ -2433,6 +2433,13 @@ const RAW_RUNTIME_STATE =
           ["eventemitter3", "npm:4.0.7"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/eventemitter3-npm-5.0.1-5e423b7df3-10c0.zip/node_modules/eventemitter3/",\
+        "packageDependencies": [\
+          ["eventemitter3", "npm:5.0.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["exponential-backoff", [\
@@ -4109,7 +4116,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:14.0.3"],\
           ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0"],\
           ["lodash", "npm:4.17.21"],\
-          ["p-queue", "npm:6.6.2"],\
+          ["p-queue", "npm:7.4.1"],\
           ["prettier", "npm:3.1.0"],\
           ["tiny-invariant", "npm:1.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
@@ -4166,6 +4173,15 @@ const RAW_RUNTIME_STATE =
           ["p-timeout", "npm:3.2.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.4.1", {\
+        "packageLocation": "../../.yarn/berry/cache/p-queue-npm-7.4.1-e0cf0a6f17-10c0.zip/node_modules/p-queue/",\
+        "packageDependencies": [\
+          ["p-queue", "npm:7.4.1"],\
+          ["eventemitter3", "npm:5.0.1"],\
+          ["p-timeout", "npm:5.1.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["p-timeout", [\
@@ -4181,6 +4197,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/p-timeout-npm-4.1.0-d6c6e20c58-10c0.zip/node_modules/p-timeout/",\
         "packageDependencies": [\
           ["p-timeout", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/p-timeout-npm-5.1.0-11ca554b60-10c0.zip/node_modules/p-timeout/",\
+        "packageDependencies": [\
+          ["p-timeout", "npm:5.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
