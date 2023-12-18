@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@solana/web3.js", "npm:1.87.6"],\
           ["@types/bn.js", "npm:5.1.5"],\
           ["@types/lodash", "npm:4.14.202"],\
-          ["@types/node", "npm:20.10.1"],\
+          ["@types/node", "npm:20.10.5"],\
           ["@types/yargs", "npm:17.0.32"],\
           ["@typescript-eslint/eslint-plugin", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:6.13.1"],\
           ["@typescript-eslint/parser", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:6.13.1"],\
@@ -578,10 +578,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.10.1", {\
-        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-20.10.1-55cf8269a8-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.10.5", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-20.10.5-9464a4540b-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.10.1"],\
+          ["@types/node", "npm:20.10.5"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -4094,7 +4094,7 @@ const RAW_RUNTIME_STATE =
           ["@solana/web3.js", "npm:1.87.6"],\
           ["@types/bn.js", "npm:5.1.5"],\
           ["@types/lodash", "npm:4.14.202"],\
-          ["@types/node", "npm:20.10.1"],\
+          ["@types/node", "npm:20.10.5"],\
           ["@types/yargs", "npm:17.0.32"],\
           ["@typescript-eslint/eslint-plugin", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:6.13.1"],\
           ["@typescript-eslint/parser", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:6.13.1"],\
