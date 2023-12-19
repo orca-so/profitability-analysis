@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["decimal.js", "npm:10.4.3"],\
           ["dotenv", "npm:16.3.1"],\
           ["eslint", "npm:8.54.0"],\
-          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0"],\
+          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0"],\
           ["lodash", "npm:4.17.21"],\
           ["p-queue", "npm:6.6.2"],\
           ["prettier", "npm:3.1.0"],\
@@ -1584,17 +1584,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["eslint-config-prettier", [\
-      ["npm:9.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/eslint-config-prettier-npm-9.0.0-8f5ce20d27-10c0.zip/node_modules/eslint-config-prettier/",\
+      ["npm:9.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/eslint-config-prettier-npm-9.1.0-0e1fd42d7d-10c0.zip/node_modules/eslint-config-prettier/",\
         "packageDependencies": [\
-          ["eslint-config-prettier", "npm:9.0.0"]\
+          ["eslint-config-prettier", "npm:9.1.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-config-prettier-virtual-da76d6dce8/3/.yarn/berry/cache/eslint-config-prettier-npm-9.0.0-8f5ce20d27-10c0.zip/node_modules/eslint-config-prettier/",\
+      ["virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-config-prettier-virtual-6fd610e9a4/3/.yarn/berry/cache/eslint-config-prettier-npm-9.1.0-0e1fd42d7d-10c0.zip/node_modules/eslint-config-prettier/",\
         "packageDependencies": [\
-          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0"],\
+          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0"],\
           ["@types/eslint", null],\
           ["eslint", "npm:8.54.0"]\
         ],\
@@ -2775,7 +2775,7 @@ const RAW_RUNTIME_STATE =
           ["decimal.js", "npm:10.4.3"],\
           ["dotenv", "npm:16.3.1"],\
           ["eslint", "npm:8.54.0"],\
-          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.0.0"],\
+          ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0"],\
           ["lodash", "npm:4.17.21"],\
           ["p-queue", "npm:6.6.2"],\
           ["prettier", "npm:3.1.0"],\
