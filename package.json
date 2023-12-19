@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/bn.js": "^5.1.5",
     "@types/lodash": "^4.14.202",
-    "@types/node": "^20.10.1",
+    "@types/node": "^20.10.5",
     "@types/yargs": "^17.0.32",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
