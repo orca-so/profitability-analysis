@@ -998,6 +998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csv-stringify@npm:^6.4.5":
+  version: 6.4.5
+  resolution: "csv-stringify@npm:6.4.5"
+  checksum: 60ea8ce0306531665a42c1b9f8faa68eb166d31f29d5a8074baf033ea612cafa56a55a7dc0fe80d2d62106e822bf31faa04b531876d4725308d09fa89e6e07da
+  languageName: node
+  linkType: hard
+
 "csv@npm:^6.3.5":
   version: 6.3.5
   resolution: "csv@npm:6.3.5"
@@ -2240,7 +2247,7 @@ __metadata:
     bn.js: "npm:^5.2.1"
     csv: "npm:^6.3.5"
     csv-parse: "npm:^5.5.2"
-    csv-stringify: "npm:^6.4.4"
+    csv-stringify: "npm:^6.4.5"
     decimal.js: "npm:^10.4.3"
     dotenv: "npm:^16.3.1"
     eslint: "npm:8.56.0"

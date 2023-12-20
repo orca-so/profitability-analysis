@@ -23,7 +23,7 @@
     "bn.js": "^5.2.1",
     "csv": "^6.3.5",
     "csv-parse": "^5.5.2",
-    "csv-stringify": "^6.4.4",
+    "csv-stringify": "^6.4.5",
     "decimal.js": "^10.4.3",
     "dotenv": "^16.3.1",
     "lodash": "^4.17.21",
