@@ -977,10 +977,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv-generate@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "csv-generate@npm:4.3.0"
-  checksum: f131041efaf33dff0f33c0dcac51785a2d9d9dccffff0a48f53aed7a71b755c87ee028f8982296ce52f2ce38710b9c971fa283c6fa2e5d4a357d9aa3f4445813
+"csv-generate@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "csv-generate@npm:4.3.1"
+  checksum: 01c78a407e8ad7a82b43ecbec21bc2a4cf76d3ad9970eb503ff00b97912b9fcb3c562868e8381b87c4d23fa356116f9cb9189d8d5b6f2e981863f413238030f3
   languageName: node
   linkType: hard
 
@@ -991,6 +991,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csv-parse@npm:^5.5.3":
+  version: 5.5.3
+  resolution: "csv-parse@npm:5.5.3"
+  checksum: 2f85cd52ea11b08d85cb97a1c90db6ed52f9d3c4e3805831da8c59c589e04870adff067ac88855deb9863a16649b3827a1ed576fd021bdf3937b1cf4de8a03ba
+  languageName: node
+  linkType: hard
+
 "csv-stringify@npm:^6.4.4":
   version: 6.4.4
   resolution: "csv-stringify@npm:6.4.4"
@@ -998,15 +1005,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv@npm:^6.3.5":
-  version: 6.3.5
-  resolution: "csv@npm:6.3.5"
+"csv-stringify@npm:^6.4.5":
+  version: 6.4.5
+  resolution: "csv-stringify@npm:6.4.5"
+  checksum: 60ea8ce0306531665a42c1b9f8faa68eb166d31f29d5a8074baf033ea612cafa56a55a7dc0fe80d2d62106e822bf31faa04b531876d4725308d09fa89e6e07da
+  languageName: node
+  linkType: hard
+
+"csv@npm:^6.3.6":
+  version: 6.3.6
+  resolution: "csv@npm:6.3.6"
   dependencies:
-    csv-generate: "npm:^4.3.0"
-    csv-parse: "npm:^5.5.2"
-    csv-stringify: "npm:^6.4.4"
-    stream-transform: "npm:^3.2.10"
-  checksum: fc160d60432e35e18ee8249710b9f1d8726fc28c82a111bad3dc2ed48aa55d7ae392fdc29ce135adfec4a65b5cbec57ac2eabe7b7235e9b0ad640732ee92e888
+    csv-generate: "npm:^4.3.1"
+    csv-parse: "npm:^5.5.3"
+    csv-stringify: "npm:^6.4.5"
+    stream-transform: "npm:^3.3.0"
+  checksum: c618da60311360c27405a7e8ef2f767817b63c5b7da382a6a0f6408350ff83aaa15a0b8348cf0a33ba02f8f206f8818e1682fb116b8a94051fb93e61b0c0be44
   languageName: node
   linkType: hard
 
@@ -2238,7 +2252,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^6.15.0"
     axios: "npm:^1.6.1"
     bn.js: "npm:^5.2.1"
-    csv: "npm:^6.3.5"
+    csv: "npm:^6.3.6"
     csv-parse: "npm:^5.5.2"
     csv-stringify: "npm:^6.4.4"
     decimal.js: "npm:^10.4.3"
@@ -2607,10 +2621,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stream-transform@npm:^3.2.10":
-  version: 3.2.10
-  resolution: "stream-transform@npm:3.2.10"
-  checksum: 06e67869b9432d657f34ab7ee1ebba06ccc1cd457b9edc7ddfc80e1ecc562ec622a5e03a61ed7187250dd423a8f0820df1692644d40a737d6f028ac0508ea34b
+"stream-transform@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "stream-transform@npm:3.3.0"
+  checksum: 49155c454754a4c9c82898b09857675fdd6fd1abe61248762558d475d37ec31de16a76c55b787f785e5378c2cc04a28330e76a5f9867e7d7067be73c3b7fcc71
   languageName: node
   linkType: hard
 

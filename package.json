@@ -21,7 +21,7 @@
     "@solana/web3.js": "^1.87.5",
     "axios": "^1.6.1",
     "bn.js": "^5.2.1",
-    "csv": "^6.3.5",
+    "csv": "^6.3.6",
     "csv-parse": "^5.5.2",
     "csv-stringify": "^6.4.4",
     "decimal.js": "^10.4.3",
