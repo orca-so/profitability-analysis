@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@coral-xyz/anchor", "npm:0.29.0"],\
-          ["@noble/hashes", "npm:1.3.2"],\
+          ["@noble/hashes", "npm:1.3.3"],\
           ["@orca-so/common-sdk", "npm:0.3.5"],\
           ["@orca-so/token-sdk", "npm:0.2.0"],\
           ["@orca-so/whirlpools-sdk", "npm:0.11.7"],\
@@ -296,6 +296,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@noble-hashes-npm-1.3.2-1e619f9da0-10c0.zip/node_modules/@noble/hashes/",\
         "packageDependencies": [\
           ["@noble/hashes", "npm:1.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.3.3", {\
+        "packageLocation": "../../.yarn/berry/cache/@noble-hashes-npm-1.3.3-f7374e6cdf-10c0.zip/node_modules/@noble/hashes/",\
+        "packageDependencies": [\
+          ["@noble/hashes", "npm:1.3.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2755,7 +2762,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["orca-pnl-analysis", "workspace:."],\
           ["@coral-xyz/anchor", "npm:0.29.0"],\
-          ["@noble/hashes", "npm:1.3.2"],\
+          ["@noble/hashes", "npm:1.3.3"],\
           ["@orca-so/common-sdk", "npm:0.3.5"],\
           ["@orca-so/token-sdk", "npm:0.2.0"],\
           ["@orca-so/whirlpools-sdk", "npm:0.11.7"],\
