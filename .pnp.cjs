@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.6.2"],\
           ["bn.js", "npm:5.2.1"],\
           ["csv", "npm:6.3.5"],\
-          ["csv-parse", "npm:5.5.2"],\
+          ["csv-parse", "npm:5.5.3"],\
           ["csv-stringify", "npm:6.4.4"],\
           ["decimal.js", "npm:10.4.3"],\
           ["dotenv", "npm:16.3.1"],\
@@ -1325,6 +1325,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/csv-parse-npm-5.5.2-e943a0a42b-10c0.zip/node_modules/csv-parse/",\
         "packageDependencies": [\
           ["csv-parse", "npm:5.5.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.5.3", {\
+        "packageLocation": "../../.yarn/berry/cache/csv-parse-npm-5.5.3-457762c0ca-10c0.zip/node_modules/csv-parse/",\
+        "packageDependencies": [\
+          ["csv-parse", "npm:5.5.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2770,7 +2777,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.6.2"],\
           ["bn.js", "npm:5.2.1"],\
           ["csv", "npm:6.3.5"],\
-          ["csv-parse", "npm:5.5.2"],\
+          ["csv-parse", "npm:5.5.3"],\
           ["csv-stringify", "npm:6.4.4"],\
           ["decimal.js", "npm:10.4.3"],\
           ["dotenv", "npm:16.3.1"],\
