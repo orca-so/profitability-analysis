@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0"],\
           ["lodash", "npm:4.17.21"],\
           ["p-queue", "npm:6.6.2"],\
-          ["prettier", "npm:3.1.0"],\
+          ["prettier", "npm:3.1.1"],\
           ["tiny-invariant", "npm:1.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["yargs", "npm:17.7.2"]\
@@ -2778,7 +2778,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-prettier", "virtual:33c92c9eaeeb1275e6d69f6a55a61c0d7b259ce91fa1e17bada68ae079477b554b60c587588f1b25d8b9d16d3c3e55a0fd38106b9b38c16c060074c5b71de6d8#npm:9.1.0"],\
           ["lodash", "npm:4.17.21"],\
           ["p-queue", "npm:6.6.2"],\
-          ["prettier", "npm:3.1.0"],\
+          ["prettier", "npm:3.1.1"],\
           ["tiny-invariant", "npm:1.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["yargs", "npm:17.7.2"]\
@@ -2938,10 +2938,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.1.0", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.0-708d6027b1/node_modules/prettier/",\
+      ["npm:3.1.1", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.1-072c31ec21/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.1.0"]\
+          ["prettier", "npm:3.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
