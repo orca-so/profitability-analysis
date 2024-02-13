@@ -15,7 +15,7 @@ export const yellow = "\x1B[33m";
 export const blue = "\x1B[34m";
 export const resetColor = "\x1B[0m";
 
-function ansiLink(str: string, url: string) {
+export function ansiLink(str: string, url: string) {
   return `\u{1b}]8;;${url}\u{7}${str}\u{1b}]8;;\u{7}`;
 }
 
