@@ -23,6 +23,31 @@ export interface PositionSummary {
   whirlpool: PublicKey;
 
   /*
+    The first token's mint address.
+  */
+  tokenAMint: PublicKey;
+
+  /*
+    The symbol of the first token.
+  */
+  tokenASymbol: string;
+
+  /*
+    The second token's mint address.
+  */
+  tokenBMint: PublicKey;
+
+  /*
+    The symbol of the second token.
+  */
+  tokenBSymbol: string;
+
+  /*
+    The fee tier of the position.
+  */
+  feeTier: number;
+
+  /*
     The position account address. If the position
     is closed then this account will not have any
     data associated with it.
@@ -284,6 +309,8 @@ export function analyzePosition(
   const opportunityCost = forgoneProfit.minus(profit);
   const opportunityCostRatio = opportunityCost.neg().div(positionSize);
 
+  const whilrpoolMeta = getWhirlpoolMeta(whirlpool, tokenMap);
+
   return {
     whirlpool: new PublicKey(openInstruction.whirlpool),
     position: new PublicKey(openInstruction.position),
@@ -293,6 +320,7 @@ export function analyzePosition(
     closedAt: closeInstruction?.blockTime,
     ...analyzedInstructions,
     ...positionBalance,
+    ...whilrpoolMeta,
     profit,
     profitRatio,
     forgoneProfit,
@@ -588,5 +616,22 @@ export function getOutstandingBalances(
     collectibleFeesValue,
     collectibleRewardsValue,
     reclaimableRent,
+  };
+}
+
+export function getWhirlpoolMeta(
+  whirlpool: Whirlpool,
+  tokenMap: ReadonlyMap<string, Token>,
+) {
+  const whirlpoolData = whirlpool.getData();
+  const tokenA = tokenMap.get(whirlpoolData.tokenMintA.toBase58());
+  const tokenB = tokenMap.get(whirlpoolData.tokenMintB.toBase58());
+
+  return {
+    tokenAMint: whirlpoolData.tokenMintA,
+    tokenASymbol: tokenA?.symbol ?? "???",
+    tokenBMint: whirlpoolData.tokenMintB,
+    tokenBSymbol: tokenB?.symbol ?? "???",
+    feeTier: whirlpoolData.feeRate,
   };
 }

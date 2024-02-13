@@ -1,6 +1,9 @@
-# Yarn PnP
+# dependencies
+/node_modules
+.pnp.*
+
+# yarn 4
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -9,6 +12,9 @@
 
 # Environment variables
 .env
+
+# vscode
+/.vscode
 
 # Output files
 dist/
