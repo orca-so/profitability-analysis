@@ -37,7 +37,7 @@
     "@types/node": "^20.11.17",
     "@types/yargs": "^17.0.32",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/parser": "^7.2.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5",
