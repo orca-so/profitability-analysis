@@ -471,12 +471,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.17":
-  version: 20.11.17
-  resolution: "@types/node@npm:20.11.17"
+"@types/node@npm:^20.11.28":
+  version: 20.11.28
+  resolution: "@types/node@npm:20.11.28"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 1f30dae80b416cbf38f133a619ffb0e9fb9e7bc58f82d900bf73816ae5781740c4640892bf5971dd9c12570d5d05241646be3e7540bb4e059322ec6af4e51e15
+  checksum: c599745243ed9ae4ca87460f18f88d02ab7424b545136aa504ed7a1d898e3a9bb133c927bcc7e861f79d7f6043ef917a173e780c8a001e129221e92f6d97b0ee
   languageName: node
   linkType: hard
 
@@ -2302,7 +2302,7 @@ __metadata:
     "@solana/web3.js": "npm:^1.90.0"
     "@types/bn.js": "npm:^5.1.5"
     "@types/lodash": "npm:^4.14.202"
-    "@types/node": "npm:^20.11.17"
+    "@types/node": "npm:^20.11.28"
     "@types/yargs": "npm:^17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.1"
     "@typescript-eslint/parser": "npm:^7.0.1"
